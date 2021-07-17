@@ -20,6 +20,7 @@ public class Service {
 
     }
     static String gender(){
+        System.out.println("Enter gender M or F:");
         var scanner = new Scanner(System.in);
         String gender =scanner.nextLine();
         if (gender!="M"|gender!="F") {
